@@ -1,0 +1,170 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+/* remember to define focus styles! */
+:focus {
+  outline: 0; }
+
+/* remember to highlight inserts somehow! */
+ins {
+  text-decoration: none; }
+
+del {
+  text-decoration: line-through; }
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* responsive stuff */
+img {
+  max-width: 100%;
+  height: auto; }
+
+/* clearfix */
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */ }
+
+.cf:after {
+  clear: both; }
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+  *zoom: 1; }
+
+/*@font-face {
+    font-family: 'FONTfame';
+    src: url('../fonts/fontname.eot');
+    src: url('../fonts/fontname.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/fontname.woff') format('woff'),
+         url('../fonts/fontname.ttf') format('truetype'),
+         url('../fonts/fontname.svg#dinprobold') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}*/
+/* COLORS--------------*/
+/* FONTS--------------*/
+/* MIXINS ---------------*/
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: 'Lora', serif;
+  color: #222;
+  font-size: 1.6rem;
+  line-height: 1.3;
+  color: #004A97;
+  background-color: #004A97;
+  text-align: center; }
+
+strong, b {
+  font-weight: bold; }
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 900px; }
+
+header {
+  padding: 40px 0;
+  background: white;
+  /*	background-image: url("../img/hero.jpg");
+	background-size: cover;
+	background-position: center center;*/ }
+  header img {
+    margin-bottom: 30px; }
+  header h2 {
+    font-size: 130%;
+    margin-bottom: 16px; }
+  header strong {
+    color: #AC162C; }
+
+section.images {
+  background: red;
+  display: flex; }
+  section.images img {
+    width: 33.3333%;
+    display: block; }
+
+section.team {
+  background: white;
+  padding: 40px 0px; }
+  section.team li {
+    margin-bottom: 1rem; }
+    section.team li span {
+      display: block;
+      visibility: hidden;
+      height: 0px; }
+
+section.main {
+  background: white;
+  padding: 40px 0 0px; }
+  section.main article:first-child {
+    margin-bottom: 30px; }
+
+footer {
+  padding: 40px 0;
+  color: white; }
+  footer a {
+    font-size: 80%;
+    color: white; }
+
+a {
+  color: #AC162C;
+  text-decoration: none;
+  border-bottom: solid 1px; }
+
+h1, h2, h3, h4 {
+  font-weight: bold; }
+
+h3 {
+  margin-bottom: 0.5rem; }
+
+@media all and (min-width: 640px) {
+  body {
+    font-size: 1.8rem; }
+  section.main .container {
+    display: flex; }
+    section.main .container article {
+      width: 50%; }
+    section.main .container article:first-child {
+      margin-bottom: 0px; }
+  section.team li {
+    margin-bottom: 0px; }
+    section.team li span {
+      display: inline;
+      visibility: visible;
+      height: auto; } }

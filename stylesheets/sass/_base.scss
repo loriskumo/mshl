@@ -1,0 +1,97 @@
+html{
+	font-size: 62.5%;
+}
+
+body{
+	font-family: 'Lora', serif;
+	color: #222;
+	font-size: 1.6rem;
+	line-height: 1.3;
+	color: $maincolour;
+	background-color: $maincolour;
+	text-align: center;
+}
+
+strong, b{
+	font-weight: bold;
+}
+
+.container{
+	width: 90%;
+	margin: 0 auto;
+	max-width: 900px;
+}
+
+header{
+	padding: 40px 0;
+	background: white;
+/*	background-image: url("../img/hero.jpg");
+	background-size: cover;
+	background-position: center center;*/
+	img{
+		margin-bottom: 30px;
+	}
+	h2{
+		font-size: 130%;
+		margin-bottom: 16px;
+	}
+	strong{
+		color: $secondarycolour;
+	}
+}
+
+section.images{
+	background: red;
+	display: flex;
+	
+	img{
+		width: 33.3333%;
+		display: block;
+	}
+}
+
+section.team{
+	background: white;
+	padding: 40px 0px;
+	
+	li{
+		margin-bottom: 1rem;
+		span{
+			display: block;
+			visibility: hidden;
+			height: 0px;
+		}
+	}
+}
+
+section.main{
+	background: white;
+	padding: 40px 0 0px;
+	
+	article:first-child{
+		margin-bottom: 30px;
+	}
+}
+
+footer{
+	padding: 40px 0;
+	color: white;
+	a{
+		font-size: 80%;
+		color: white;
+	}
+}
+
+a{
+	color: $secondarycolour;
+	text-decoration: none;
+	border-bottom: solid 1px;
+}
+
+h1, h2, h3, h4{
+	font-weight: bold;
+}
+
+h3{
+	margin-bottom: 0.5rem;
+}

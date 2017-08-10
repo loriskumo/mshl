@@ -1,0 +1,17 @@
+/* COLORS--------------*/
+$maincolour: #004A97;
+$secondarycolour: #AC162C;
+$black: #222;
+$lightgrey:#fafafa;
+
+/* FONTS--------------*/
+$FONTfame: FONTname, Helvetica, sans-serif;
+
+
+/* MIXINS ---------------*/
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}

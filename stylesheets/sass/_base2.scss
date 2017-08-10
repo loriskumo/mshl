@@ -1,0 +1,26 @@
+body{
+	font-size: 1.8rem;
+}
+
+section.main .container{
+	display: flex;
+	
+	article{
+		width: 50%;
+	}
+	
+	article:first-child{
+		margin-bottom: 0px;
+	}
+}
+
+section.team{
+	li{
+		margin-bottom: 0px;
+		span{
+			display: inline;
+			visibility: visible;
+			height: auto;
+		}
+	}
+}
