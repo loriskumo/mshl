@@ -3,7 +3,7 @@ html{
 }
 
 body{
-	font-family: Georgia, serif;
+	font-family: 'Didact Gothic', sans-serif;
 	color: #222;
 	font-size: 1.6rem;
 	line-height: 1.3;
@@ -38,6 +38,21 @@ header{
 	}
 	strong{
 		color: $secondarycolour;
+	}
+}
+
+header a{
+	color: white;
+	background-color: $secondarycolour;
+	padding: 10px 15px;
+	margin-bottom: 20px;
+	display: inline-block;
+	border: none;
+	border-radius: 5px;
+	
+	&:hover{
+		background-color: darken($secondarycolour, 20%);
+		color: white;
 	}
 }
 
@@ -86,6 +101,9 @@ a{
 	color: $secondarycolour;
 	text-decoration: none;
 	border-bottom: solid 1px;
+	&:hover{
+		color: darken($secondarycolour, 20%);
+	}
 }
 
 
