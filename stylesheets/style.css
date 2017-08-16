@@ -115,7 +115,7 @@ header a {
   color: white;
   background-color: #AC162C;
   padding: 10px 15px;
-  margin-bottom: 20px;
+  margin: 0 10px 20px;
   display: inline-block;
   border: none;
   border-radius: 5px; }
