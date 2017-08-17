@@ -173,7 +173,7 @@ h3 {
     section.main .container article:first-child {
       margin-bottom: 0px; }
   section.team li {
-    margin-bottom: 0px; }
+    margin-bottom: 0.7rem; }
     section.team li span {
       display: inline;
       visibility: visible;
