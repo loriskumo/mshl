@@ -4,9 +4,12 @@ body{
 
 section.main .container{
 	display: flex;
+	padding-bottom: 50px;
+	margin-bottom: 2px;
+	justify-content: center;
 	
 	article{
-		width: 50%;
+		width: 30%;
 	}
 	
 	article:first-child{
@@ -15,6 +18,21 @@ section.main .container{
 }
 
 section.team{
+	
+	.section{
+		width: 90%;
+		margin: 0 auto;
+		max-width: 900px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	
+	.container{
+		width: 48%;
+		text-align: center;
+	}
+	
 	li{
 		margin-bottom: 0.7rem;
 		span{

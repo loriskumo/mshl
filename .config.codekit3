@@ -7,7 +7,7 @@
 		"uuidString": "CE15DA1B-53C4-4854-A9EA-D46D73707833"
 		}
 	],
-"creatorBuild": "26148",
+"creatorBuild": "26680",
 "files": {
 	"\/.gitattributes": {
 		"cB": 0,
@@ -75,6 +75,7 @@
 	"\/img\/hero.jpg": {
 		"ft": 16384,
 		"iS": 3174254,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/hero.jpg",
 		"oF": 0,
@@ -85,6 +86,7 @@
 	"\/img\/img1.jpg": {
 		"ft": 16384,
 		"iS": 55942,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/img1.jpg",
 		"oF": 0,
@@ -95,6 +97,7 @@
 	"\/img\/img2.jpg": {
 		"ft": 16384,
 		"iS": 35708,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/img2.jpg",
 		"oF": 0,
@@ -105,6 +108,7 @@
 	"\/img\/img3.jpg": {
 		"ft": 16384,
 		"iS": 32854,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/img3.jpg",
 		"oF": 0,
@@ -226,7 +230,8 @@
 	"creationDate": 524061620,
 	"displayValue": "mshl",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-karate"
+	"iconImageName": "meme-karate",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -234,6 +239,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -797,6 +803,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
@@ -2024,6 +2034,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {

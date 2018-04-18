@@ -92,6 +92,9 @@ body {
 strong, b {
   font-weight: bold; }
 
+em, i {
+  font-style: italic; }
+
 .container {
   width: 90%;
   margin: 0 auto;
@@ -131,7 +134,10 @@ section.images {
 
 section.team {
   background: white;
-  padding: 40px 0px; }
+  padding: 40px 0px;
+  text-align: left; }
+  section.team .container {
+    margin-bottom: 40px; }
   section.team li {
     margin-bottom: 1rem; }
     section.team li span {
@@ -167,11 +173,24 @@ h3 {
   body {
     font-size: 1.8rem; }
   section.main .container {
-    display: flex; }
+    display: flex;
+    padding-bottom: 50px;
+    margin-bottom: 2px;
+    justify-content: center; }
     section.main .container article {
-      width: 50%; }
+      width: 30%; }
     section.main .container article:first-child {
       margin-bottom: 0px; }
+  section.team .section {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+  section.team .container {
+    width: 48%;
+    text-align: center; }
   section.team li {
     margin-bottom: 0.7rem; }
     section.team li span {

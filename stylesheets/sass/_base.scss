@@ -17,6 +17,10 @@ strong, b{
 	font-weight: bold;
 }
 
+em, i{
+	font-style: italic;
+}
+
 .container{
 	width: 90%;
 	margin: 0 auto;
@@ -68,6 +72,11 @@ section.images{
 section.team{
 	background: white;
 	padding: 40px 0px;
+	text-align: left;
+		
+	.container{
+		margin-bottom: 40px;
+	}
 	
 	li{
 		margin-bottom: 1rem;
