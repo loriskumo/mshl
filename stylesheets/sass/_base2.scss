@@ -3,13 +3,12 @@ body{
 }
 
 section.main .container{
-	display: flex;
+//	display: flex;
 	padding-bottom: 50px;
-	margin-bottom: 2px;
 	justify-content: center;
 	
 	article{
-		width: 30%;
+		padding: 0px 1%;
 	}
 	
 	article:first-child{
@@ -19,22 +18,17 @@ section.main .container{
 
 section.team{
 	
-	.section{
-		width: 90%;
-		margin: 0 auto;
-		max-width: 900px;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-	}
-	
 	.container{
-		width: 48%;
+		display: flex;
 		text-align: center;
+		
+		article{
+			width: 100%;
+		}
 	}
 	
 	li{
-		margin-bottom: 0.7rem;
+		margin-bottom: 1.2rem;
 		span{
 			display: inline;
 			visibility: visible;

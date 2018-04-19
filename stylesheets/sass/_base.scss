@@ -21,10 +21,10 @@ em, i{
 	font-style: italic;
 }
 
-.container{
+.container, {
 	width: 90%;
 	margin: 0 auto;
-	max-width: 900px;
+	max-width: 1000px;
 }
 
 header{
@@ -63,9 +63,13 @@ header a{
 section.images{
 	display: flex;
 	
+	div{
+		width: 100%;
+		line-height: 0;
+	}
+	
 	img{
-		width: 33.3333%;
-		display: block;
+		width: 100%;
 	}
 }
 
@@ -75,11 +79,19 @@ section.team{
 	text-align: left;
 		
 	.container{
-		margin-bottom: 40px;
+		padding-bottom: 40px;
+	}
+	
+	article{
+		padding-bottom: 20px;
+	}
+	
+	article:last-child{
+		padding-bottom: 0px;
 	}
 	
 	li{
-		margin-bottom: 1rem;
+		margin-bottom: 1.2rem;
 		span{
 			display: block;
 			visibility: hidden;
@@ -88,13 +100,20 @@ section.team{
 	}
 }
 
+h2.sectiontitle{
+	width: 90%;
+	margin: 0 auto;
+	max-width: a000px;
+	font-size: 130%;
+	margin-bottom: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+
 section.main{
 	background: white;
-	padding: 40px 0 0px;
-	
-	article:first-child{
-		margin-bottom: 30px;
-	}
+	padding: 40px 0 40px;
+	margin-bottom: 2px;
 }
 
 footer{
